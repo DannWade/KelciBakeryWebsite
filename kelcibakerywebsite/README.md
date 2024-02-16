@@ -6,6 +6,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+    - npm ERR! code ENOENT means you need to cd into the file
 # or
 yarn dev
 # or
