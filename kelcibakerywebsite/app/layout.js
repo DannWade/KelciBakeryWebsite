@@ -1,15 +1,28 @@
+import './globals.css'
+
 export default function RootLayout({
   children,
   params,
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"></link>
+      </head>
       <body>
-        <nav>
-          <h3>Home</h3>
-          <h3>Portfolio</h3>
-          <h3>Contact</h3>
-        </nav>
+        <header>
+          <ol>
+            <div>
+              <h3 className="text-3xl font-bold underline">Home</h3>
+            </div>
+            <div>
+              <h3>Portfolio</h3>
+              <h3><em>Let's Bake!</em></h3>
+            </div>
+          </ol>
+        </header>
         <main>
           {children},
         </main> 
