@@ -13,13 +13,16 @@ export default function RootLayout({
       </head>
       <body>
         <header>
-          <ol>
+          <ol class="flex flex-1 justify-between items-center">
             <div>
-              <h3 className="text-3xl font-bold underline">Home</h3>
+              <h3 className="m-3 p-1 rounded border-2 border-amber-200 hover:bg-amber-50">DRK CHOC MODE</h3>
             </div>
-            <div>
-              <h3>Portfolio</h3>
-              <h3><em>Let's Bake!</em></h3>
+            <div class="m-3">
+              <h1 class="font-serif text-3xl">Kelci's Bakery</h1>
+            </div>
+            <div class="flex">
+              <h3 class="hover:bg-amber-50 border-2 rounded border-amber-200 m-3 p-1">Portfolio</h3>
+              <h3 class="hover:bg-amber-50 border-2 rounded border-amber-200 m-3 p-1"><em>Let's Bake!</em></h3>
             </div>
           </ol>
         </header>
